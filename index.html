@@ -1,141 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mohan's Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 10px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2em;
-        }
-        section {
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .contact, .skills, .experience, .education, .about {
-            background-color: white;
-            margin-bottom: 20px;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .contact ul, .skills ul, .experience ul, .education ul {
-            list-style: none;
-            padding: 0;
-        }
-        .contact li, .skills li, .experience li, .education li {
-            margin: 10px 0;
-            word-wrap: break-word;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 10px 0;
-            border-radius: 8px;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Mohan's Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 15px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1rem;
+      word-break: break-word;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .contact,
+    .skills,
+    .experience,
+    .education,
+    .about {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 1rem;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+      word-break: break-all;
+    }
 
-        /* Mobile responsiveness */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 1.5em;
-            }
-            section {
-                padding: 15px;
-            }
-            .contact, .skills, .experience, .education, .about {
-                padding: 10px;
-            }
-        }
-    </style>
+    /* 📱 Mobile styles */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header p {
+        font-size: 0.9rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+      li {
+        font-size: 0.95rem;
+      }
+      section {
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
-
-<header>
+  <header>
     <h1>MOHANRAJ.K</h1>
-    <p>FRONTEND DEVELOPER & DEVOPS | +91 9940441640 | mohanrajkathirvel00@gmail.com</p>
-</header>
+    <p>FRONTEND DEVELOPER & DEVOPS</p>
+    <p>+91 9940441640 | mohanrajkathirvel00@gmail.com</p>
+  </header>
 
-<section class="contact">
+  <section class="contact">
     <h2>Contact Info</h2>
     <ul>
-        <li>Email: mohanrajkathirvel00@gmail.com</li>
-        <li>Phone: +91 9940441640</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/mohan-raj-k-a41678309" target="_blank">LinkedIn Profile</a></li>
-        <li>GitHub: <a href="https://github.com/bboy-creator" target="_blank">github.com/bboy-creator</a></li>
+      <li>Email: mohanrajkathirvel00@gmail.com</li>
+      <li>Phone: +91 9940441640</li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/mohan-raj-k-a41678309" target="_blank">View Profile</a></li>
+      <li>GitHub: <a href="https://github.com/bboy-creator" target="_blank">bboy-creator</a></li>
     </ul>
-</section>
+  </section>
 
-<section class="about">
+  <section class="about">
     <h2>About Me</h2>
-    <p>Enthusiastic and self-motivated recent graduate with a strong foundation in front-end development and cloud technologies (AWS). Seeking an opportunity to apply my skills in building scalable web applications and contributing to the growth of a forward-thinking tech team.</p>
-</section>
+    <p>
+      Enthusiastic and self-motivated recent graduate with a strong foundation in front-end development and cloud technologies (AWS). Seeking an opportunity to apply my skills in building scalable web applications and contributing to the growth of a forward-thinking tech team.
+    </p>
+  </section>
 
-<section class="skills">
+  <section class="skills">
     <h2>Skills</h2>
     <ul>
-        <li>Front-End Development: HTML, CSS, JavaScript, React, Bootstrap</li>
-        <li>AWS: AWS EC2, S3, Lambda, CloudFormation, IAM, and CloudWatch</li>
-        <li>Version Control: Git, GitHub</li>
-        <li>Web Development Tools: VS Code</li>
-        <li>Soft Skills: Problem-solving, Communication, Collaboration, Adaptability</li>
+      <li>Front-End Development: HTML, CSS, JavaScript, React, Bootstrap</li>
+      <li>AWS: AWS EC2, S3, Lambda, CloudFormation, IAM, and CloudWatch</li>
+      <li>Version Control: Git, GitHub</li>
+      <li>Web Development Tools: VS Code</li>
+      <li>Soft Skills: Problem-solving, Communication, Collaboration, Adaptability</li>
     </ul>
-</section>
+  </section>
 
-<section class="experience">
+  <section class="experience">
     <h2>Internship</h2>
     <ul>
-        <li>
-            <strong>Course Instructor</strong> - Ingage Technologies PVT.LTD
-            <ul>
-                <li>Conducted hands-on sessions in IoT, Blender, Unity.</li>
-                <li>Upskilled the students to get them certified.</li>
-            </ul>
-        </li>
+      <li>
+        <strong>Course Instructor</strong> - Ingage Technologies PVT.LTD
+        <ul>
+          <li>Conducted hands-on sessions in IoT, Blender, Unity.</li>
+          <li>Upskilled students and helped them get certified.</li>
+        </ul>
+      </li>
     </ul>
-    <img src="college.jpg" alt="Internship Image">
-</section>
+    <img src="college.jpg" alt="Internship">
+  </section>
 
-<section class="education">
+  <section class="education">
     <h2>Education</h2>
     <ul>
-        <li>
-            <strong>B.Sc. Electronics & Communication Science</strong> - A.M. Jain College (2024)
-            <ul>
-                <li>Robotics Certifications - Level 1 & 2</li>
-            </ul>
-        </li>
-        <li>
-            <strong>SSLC & HSE</strong> - Himayam Matric Hr. Sec. School
-        </li>
+      <li>
+        <strong>BSc. Electronics & Communication Science</strong> - A.M. Jain College (2024)
+        <ul>
+          <li>Robotics Certifications - Level 1 & 2</li>
+        </ul>
+      </li>
+      <li>
+        <strong>SSLC & HSE</strong> - Himayam Matric Hr. Sec. School
+      </li>
     </ul>
-</section>
+  </section>
 
-<footer>
+  <footer>
     <p>THANK YOU</p>
-</footer>
-
+  </footer>
 </body>
 </html>
