@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>mohan's resume</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+    <title>Mohan's Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,14 +23,10 @@
             margin: 0;
             font-size: 2em;
         }
-        header p {
-            font-size: 1em;
-        }
         section {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
-            box-sizing: border-box;
         }
         .contact, .skills, .experience, .education, .about {
             background-color: white;
@@ -40,18 +35,20 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        ul {
+        .contact ul, .skills ul, .experience ul, .education ul {
             list-style: none;
             padding: 0;
         }
-        li {
+        .contact li, .skills li, .experience li, .education li {
             margin: 10px 0;
+            word-wrap: break-word;
         }
         img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
+            display: block;
+            margin: 10px 0;
             border-radius: 8px;
-            margin-top: 10px;
         }
         footer {
             background-color: #333;
@@ -60,20 +57,16 @@
             padding: 10px;
         }
 
-        /* Mobile styles */
+        /* Mobile responsiveness */
         @media (max-width: 600px) {
             header h1 {
                 font-size: 1.5em;
             }
-            header p {
-                font-size: 0.9em;
-                padding: 0 10px;
-            }
             section {
                 padding: 15px;
             }
-            li {
-                font-size: 0.95em;
+            .contact, .skills, .experience, .education, .about {
+                padding: 10px;
             }
         }
     </style>
@@ -86,12 +79,12 @@
 </header>
 
 <section class="contact">
-    <h2>Contact info</h2>
+    <h2>Contact Info</h2>
     <ul>
         <li>Email: mohanrajkathirvel00@gmail.com</li>
         <li>Phone: +91 9940441640</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/mohan-raj-k-a41678309" target="_blank">View Profile</a></li>
-        <li>GitHub: <a href="https://github.com/bboy-creator" target="_blank">bboy-creator</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/mohan-raj-k-a41678309" target="_blank">LinkedIn Profile</a></li>
+        <li>GitHub: <a href="https://github.com/bboy-creator" target="_blank">github.com/bboy-creator</a></li>
     </ul>
 </section>
 
@@ -112,10 +105,10 @@
 </section>
 
 <section class="experience">
-    <h2>INTERNSHIP</h2>
+    <h2>Internship</h2>
     <ul>
         <li>
-            <strong>Course instructor</strong> - Ingage technologies PVT.LTD
+            <strong>Course Instructor</strong> - Ingage Technologies PVT.LTD
             <ul>
                 <li>Conducted hands-on sessions in IoT, Blender, Unity.</li>
                 <li>Upskilled the students to get them certified.</li>
@@ -129,7 +122,7 @@
     <h2>Education</h2>
     <ul>
         <li>
-            <strong>Bsc. Electronics & Communication Science</strong> - A.M.Jain College (2024)
+            <strong>B.Sc. Electronics & Communication Science</strong> - A.M. Jain College (2024)
             <ul>
                 <li>Robotics Certifications - Level 1 & 2</li>
             </ul>
