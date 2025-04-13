@@ -18,35 +18,63 @@
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 20px 10px;
         }
         header h1 {
             margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            font-size: 1em;
         }
         section {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
+            box-sizing: border-box;
         }
-        .contact, .skills, .experience, .education {
+        .contact, .skills, .experience, .education, .about {
             background-color: white;
             margin-bottom: 20px;
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        .contact ul, .skills ul, .experience ul, .education ul {
+        ul {
             list-style: none;
             padding: 0;
         }
-        .contact li, .skills li, .experience li, .education li {
+        li {
             margin: 10px 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
             padding: 10px;
+        }
+
+        /* Mobile styles */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+            header p {
+                font-size: 0.9em;
+                padding: 0 10px;
+            }
+            section {
+                padding: 15px;
+            }
+            li {
+                font-size: 0.95em;
+            }
         }
     </style>
 </head>
@@ -62,8 +90,8 @@
     <ul>
         <li>Email: mohanrajkathirvel00@gmail.com</li>
         <li>Phone: +91 9940441640</li>
-        <li>LinkedIn: https://www.linkedin.com/in/mohan-raj-k-a41678309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app </li>
-        <li>GitHub: https://github.com/bboy-creator </li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/mohan-raj-k-a41678309" target="_blank">View Profile</a></li>
+        <li>GitHub: <a href="https://github.com/bboy-creator" target="_blank">bboy-creator</a></li>
     </ul>
 </section>
 
@@ -89,26 +117,25 @@
         <li>
             <strong>Course instructor</strong> - Ingage technologies PVT.LTD
             <ul>
-                <li>conducted hands-on sessions in iot,blender,unity.</li>
-                <li>upskill the students to get them certified</li>
+                <li>Conducted hands-on sessions in IoT, Blender, Unity.</li>
+                <li>Upskilled the students to get them certified.</li>
             </ul>
         </li>
-        
     </ul>
-    <img src="college.jpg" style="width: 800px; height: 400px;">
+    <img src="college.jpg" alt="Internship Image">
 </section>
 
 <section class="education">
     <h2>Education</h2>
     <ul>
         <li>
-            <strong>Bsc.Electronics & communication science</strong> - A.M.Jain college -2024
+            <strong>Bsc. Electronics & Communication Science</strong> - A.M.Jain College (2024)
             <ul>
-                <li>robotics certifications -(level 1&2)</li>
+                <li>Robotics Certifications - Level 1 & 2</li>
             </ul>
         </li>
         <li>
-            <strong>SSLC & HSE</strong> - Himayam.Matric.Hr.Sec.school
+            <strong>SSLC & HSE</strong> - Himayam Matric Hr. Sec. School
         </li>
     </ul>
 </section>
